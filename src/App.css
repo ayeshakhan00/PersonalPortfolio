@@ -1,0 +1,326 @@
+/* .App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color
+  : #61dafb;
+} */
+.sidebar-link {
+  text-decoration: none;
+  color: #727272;
+  transition: 0.3s;
+}
+
+.sidebar-link.active {
+  color: #05d205;
+}
+
+.icon {
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #05d205;
+}
+
+.anim {
+  animation: move 9s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.texthover {
+  color: rgb(116, 116, 116);
+  transition: .34s all;
+}
+
+.mainhover:hover .texthover {
+  color: rgb(74, 222, 128);
+}
+
+.b-hover {
+  transition: 0.50 all;
+  cursor: default;
+}
+
+.b-hover:hover {
+  border: 1px solid rgb(74, 222, 128);
+}
+
+.b-hover:hover .u-line {
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+  color: rgb(93, 93, 93);
+}
+
+.blinking-text {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.20;
+    color: rgb(29, 70, 44);
+  }
+
+  50% {
+    opacity: 1;
+    color: rgb(74, 222, 128);
+  }
+
+  100% {
+    opacity: 0.70;
+    color: rgb(56, 89, 68);
+  }
+}
+
+.hov-dec:hover .deco {
+  color: rgb(74, 222, 128);
+}
+
+.bg-div {
+  background-color: rgba(0, 0, 0, 0.452);
+  opacity: 0;
+  transition: .40s all;
+}
+
+.hov-dec:hover .bg-div {
+  opacity: 1;
+}
+
+.place-hold:focus {
+  border: none;
+  outline: none;
+}
+
+.place-hold::placeholder {
+  color: rgb(94, 94, 94);
+  outline: none;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  color: white;
+  border: none ;
+  overflow: hidden;
+  margin-left: -8px;
+}
+
+#file-input {
+  display: none;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+@media screen and (max-width: 1282px) {
+  .rightbar{
+    margin-left: 60%;
+  }
+}
+@media screen and (max-width: 1027px) {
+  .rightbar{
+    height: 40px;
+    width: 300px;
+    margin-top: -585px;
+    margin-left: 32%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+  }
+  .icon{
+    margin-top: 0px;
+  }
+  .sidename{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .projanim{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .m-border{
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  .sidebar{
+    position: static;
+    width: 100%;
+  } 
+  .margin{
+    margin-left: 0px;
+  }
+  .h1{
+    font-size: 44px;
+    width: 100%;
+  }
+  .small{
+    font-size: 17px;
+    width: 100%;
+  }
+  .skillauto{
+    margin-left: 10px;
+  }
+  .display{
+    display: none;
+  }
+  .front{
+    margin: auto;
+  }
+}
+@media screen and (max-width: 915px) {
+  .rightbar{
+    height: 40px;
+    width: 300px;
+    margin-top: -585px;
+    margin-left: 32%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+  }
+  .icon{
+    margin-top: 0px;
+  }
+  .sidename{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .projanim{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .m-border{
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  .sidebar{
+    position: static;
+    width: 100%;
+  } 
+  .margin{
+    margin-left: 0px;
+  }
+  .h1{
+    font-size: 44px;
+    width: 100%;
+  }
+  .small{
+    font-size: 17px;
+    width: 100%;
+  }
+  .skillauto{
+    gap: 4;
+    margin-left: 10px;
+  }
+  .display{
+    display: none;
+  }
+  .front{
+    margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .projanim{
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .m-border{
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  .sidebar{
+    position: static;
+    width: 100%;
+  } 
+  .margin{
+    margin-left: 0px;
+  }
+  .h1{
+    font-size: 44px;
+    width: 100%;
+  }
+  .small{
+    font-size: 17px;
+    width: 100%;
+  }
+  .skillauto{
+    gap: 4;
+    margin-left: 10px;
+  }
+  .display{
+    display: none;
+  }
+  .front{
+    margin: auto;
+  }
+  .rightbar{
+    display: none;
+  }
+}
