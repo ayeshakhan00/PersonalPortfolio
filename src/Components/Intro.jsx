@@ -22,11 +22,11 @@ const Intro = () => {
             </a>
             <div className=' flex justify-between w-[58%] -mt-4'>
                 <div className=''>
-                    <p className='text-green-500 text-6xl'>2+</p>
-                    <p className='text-zinc-500 text-base mt-5'>YEARS OF EXPERIENCE</p>
+                    <p className='text-green-500 text-6xl'>1-2</p>
+                    <p className='text-zinc-500 text-base mt-5'>YEAR OF EXPERIENCE</p>
                 </div>
                 <div className=' ml-6'>
-                    <p className='text-green-500 text-6xl'>250+</p>
+                    <p className='text-green-500 text-6xl'>20+</p>
                     <p className='text-zinc-500 text-base mt-5'>PROJECTS COMPLETED IN DIFFERENT LIBRARIES</p>
                 </div>
             </div>

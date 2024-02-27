@@ -11,8 +11,8 @@ const Resume = () => {
                     <PiFolderNotchOpen className='text-[14px] mr-2' />
                     <h1 className='text-xs'>RESUME</h1>
                 </div>
-                <a href="https://drive.google.com/file/d/1GoVGYUTIJNKHmbiM-0YVCtA562UfaBRR/view?usp=sharing"
-                    download="https://drive.google.com/file/d/1GoVGYUTIJNKHmbiM-0YVCtA562UfaBRR/view?usp=sharing"><button data-aos="fade-up"
+                <a href="https://drive.google.com/file/d/18tRBilJWlDsVlHHkZ_OoxEL2yIpOQWn0/view?usp=drive_link"
+                    download="https://drive.google.com/file/d/18tRBilJWlDsVlHHkZ_OoxEL2yIpOQWn0/view?usp=drive_link"><button data-aos="fade-up"
                         className='h-8 mt-6 w-44 border rounded-full border-zinc-500 text-white text-sm inline-block'>Download Resume</button></a>
                         <FaHandPointLeft className='inline ml-4 text-green-400' />
             <p className='mt-2 inline-block ml-3 underline blinking-text '>CLICK to open resume</p>
@@ -22,7 +22,7 @@ const Resume = () => {
                 <div data-aos="fade-left" className='h-max border-l border-zinc-600 relative mainhover pb-14'>
                     <div className='w-[60%] flex justify-between items-center h-4 texthover'>
                         <GoDotFill className='absolute -left-3 text-[22px] -top-1' />
-                        <p className='ml-14'>2023 - Present</p>
+                        <p className='ml-14'>2023 - 2024</p>
                     </div>
                     <div className=' ml-14 mt-6'>
                         <p className='text-white text-xl'>Front End Developer</p>
@@ -34,7 +34,7 @@ const Resume = () => {
                 <div data-aos="fade-left" className='h-max border-l border-zinc-600 relative mainhover pb-14'>
                     <div className='w-[60%] flex justify-between items-center h-4 texthover'>
                         <GoDotFill className='absolute -left-3 text-[22px] -top-1' />
-                        <p className='ml-14'>2019 - 2022</p>
+                        <p className='ml-14'>2020 - 2023</p>
                     </div>
                     <div className=' ml-14 mt-6'>
                         <p className='text-white text-xl'>Bachelor of English Literature & Linguistic</p>

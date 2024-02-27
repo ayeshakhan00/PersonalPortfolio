@@ -28,7 +28,7 @@ const Services = () => {
                         <p className='text-xl text-white inline'>Development</p>
                         <FaCode className='text-3xl text-green-500' />
                     </div>
-                    <p className='mt-2 text-zinc-500 w-[80%]'>I build website go live with Shopify, Webflow or Netlify.</p>
+                    <p className='mt-2 text-zinc-500 w-[80%]'>I build website go live with Vercel or Netlify.</p>
                     <p className='text-white u-line text-sm mt-4'>Projects</p>
                 </div>
                 <div className='border cursor-default h-max border-zinc-500 rounded-2xl p-10 b-hover mt-6'>
@@ -36,7 +36,7 @@ const Services = () => {
                         <p className='text-xl text-white inline'>Expertise</p>
                         <HiOutlineRocketLaunch className='text-2xl text-green-500' />
                     </div>
-                    <p className='mt-3 text-zinc-500 w-[80%]'>HTML, CSS, JavaScript, Local Storage, React Native, Jquery and Responsive Design</p>
+                    <p className='mt-3 text-zinc-500 w-[80%]'>HTML, CSS, JavaScript, Local Storage, React JS, Jquery and Responsive Design</p>
                     <p className='text-white u-line text-sm mt-4'>Projects</p>
                 </div>
             </div>
